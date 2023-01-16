@@ -36,6 +36,7 @@ class Md_Katalog extends CI_Model
 
         // $this->db->limit($limit, $start);
         $this->db->order_by('tb.kode_barang', 'ASC');
+        $this->db->group_by('tb.id_barang');
 
         $data = $this->db->get();
 
@@ -56,6 +57,7 @@ class Md_Katalog extends CI_Model
         // }
 
         $status_product = array('0', '4');
+
         $this->db->select('tb.id_barang, tb.id_satuan, tb.id_subkategori, tb.id_merk, tb.kode_barang, tb.status_product, tb.nama_barang, tb.harga_jual, tb.jenis_barang, tsat.nama_satuan, tsub.id_subkategori, tsub.nama_subkategori, tsub.id_kategori, ts.stok_update, tfot.nama_foto_barang')
             ->from('tabel_barang tb')
             ->join('tabel_subkategori tsub', 'tb.id_subkategori = tsub.id_subkategori', 'inner')
@@ -85,6 +87,7 @@ class Md_Katalog extends CI_Model
         // $filter;
         $this->db->limit($limit, $start);
         $this->db->order_by('tb.kode_barang', 'ASC');
+        $this->db->group_by('tb.id_barang');
 
         $data = $this->db->get();
 
