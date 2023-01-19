@@ -18,6 +18,10 @@
         margin-top: 5px;
         margin-bottom: 15px;
     }
+
+    .fontlato {
+        font-family: 'lato';
+    }
 </style>
 
 <body>
@@ -89,28 +93,27 @@
                         <div class="side-bar">
                             <div class="side-barBox">
                                 <h5 class="side-barTitle">Categories</h5>
-                                <ul class="categories">
-                                    <font face="lato">
-                                        <?php foreach ($tampilkategori as $kategori) { ?>
-                                            <li><a href="<?php echo base_url('Cn_Katalog?id_kategori=') . $kategori->id_kategori . '&kategori=' . urlencode($kategori->nama_kategori) ?>">
-                                                    <?Php echo $kategori->nama_kategori ?>
-                                                </a></li>
-                                        <?php } ?>
-                                    </font>
+                                <ul class="categories fontlato">
+                                    <!-- <font face="lato"> -->
+                                    <?php foreach ($tampilkategori as $kategori) { ?>
+                                        <li><a href="<?php echo base_url('Cn_Katalog?id_kategori=') . $kategori->id_kategori . '&kategori=' . urlencode($kategori->nama_kategori) ?>">
+                                                <?Php echo $kategori->nama_kategori ?>
+                                            </a></li>
+                                    <?php } ?>
+                                    <!-- </font> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="side-bar">
                             <div class="side-barBox">
                                 <h5 class="side-barTitle">Merk</h5>
-                                <ul class="tags-bar">
-                                    <font face="lato">
-                                        <?php foreach ($tampilmerk as $merk) { ?>
-                                            <li><a href="<?php echo base_url('Cn_Katalog?id_kategori=') . $this->input->get('id_kategori') . '&kategori=' . $this->input->get('kategori') . '&id_merk=' . urlencode($merk->id_merk) . '&merk=' . urlencode($merk->nama_merk) ?>">
-                                                    <?Php echo $merk->nama_merk ?>
-                                                </a></li>
-                                        <?php } ?>
-                                    </font>
+                                <ul class="tags-bar fontlato">
+                                    <?php foreach ($tampilmerk as $merk) { ?>
+                                        <li><a href="<?php echo base_url('Cn_Katalog?id_kategori=') . $this->input->get('id_kategori') . '&kategori=' . $this->input->get('kategori') . '&id_merk=' . urlencode($merk->id_merk) . '&merk=' . urlencode($merk->nama_merk) ?>">
+                                                <b> <?Php echo $merk->nama_merk ?> </b>
+                                            </a></li>
+                                    <?php } ?>
+
                                 </ul>
                                 <div class="clearfix"></div>
                             </div>
@@ -175,21 +178,17 @@
                                                                 </div>
                                                             </div>
                                                             <div class="title-holder">
-                                                                <div class="product-title">
-                                                                    <font face="lato">
+                                                                <div class="product-title">                                                                   
                                                                         <a href="<?php echo base_url() ?>Cn_ShopSingle?id_barang=${value.id_barang}">
-                                                                            <h5>${value.nama_barang}</h5>
-                                                                        </a>
-                                                                    </font>
+                                                                            <h5 class="fontlato">${value.nama_barang}</h5>
+                                                                        </a>                                                                    
                                                                 </div>
-                                                                <div>
-                                                                    <font face="lato">                                                      
+                                                                <div class="fontlato">                                                                                                                        
                                                                         <a href="<?php echo base_url() ?>Cn_ShopSingle?id_barang=${value.id_barang}">                                                       
-                                                                            <h4 class="rate">Rp. ${numeral(value.harga_jual).format()}</h4>                                                                    
+                                                                            <h4 class="rate"><b>Rp. ${numeral(value.harga_jual).format()}</b></h4>                                                                    
                                                                             <h5 class="jenis-barang"><b>${status}</b></h5>  
-                                                                        </a>
-                                                                    </font>
-                                                                </div>
+                                                                        </a>                                                                    
+                                                                </div>                                                               
                                                             </div>
                                                         </div>
                                                     </li>

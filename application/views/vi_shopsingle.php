@@ -20,9 +20,9 @@
         <!--inner-heading start-->
         <section class="inner-heading">
             <div class="container">
-                <h1>Shop</h1>
+                <h1>Detail Produk</h1>
                 <ul class="xs-breadcumb">
-                    <li><a href="index.html"> Home / </a> <a href="index.html">Pages /</a> Single-Shop</li>
+                    <li><a href="<?php echo base_url('Cn_Home') ?>"> Home / </a> <a href="<?php echo base_url('Cn_Katalog') ?>">Katalog /</a> Detail Produk</li>
                 </ul>
             </div>
         </section>

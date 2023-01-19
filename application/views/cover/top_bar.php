@@ -1,3 +1,8 @@
+<style>
+    .fontlato {
+        font-family: 'lato';
+    }
+</style>
 <header class="main-header">
     <!--header-top start-->
     <div class="header-top">
@@ -60,7 +65,7 @@
             <div class="row">
                 <div class="col-md-5 col-sm-12">
                     <div class="logo-outer">
-                        <div class="logo"> <a href="<?php echo base_url('Cn_Home') ?>"> <img class="logo-default" src="<?php echo base_url() ?>assets/images/logocombomodif.png" width="400" alt="" title=""> </a> </div>
+                        <div class="logo"> <a href="<?php echo base_url('Cn_Home') ?>"> <img class="logo-default" src="<?php echo base_url() ?>assets/images/logocombomodif3.png" width="300" alt="" title=""> </a> </div>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-12">
@@ -70,15 +75,15 @@
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                             </div>
-                            <div class="navbar-collapse collapse clearfix">
+                            <div class="navbar-collapse collapse clearfix fontlato">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a class="hvr-link" href="#">Home</a>
+                                    <li class="current dropdown"><a class="hvr-link" href="#"><b>Home</b></a>
                                         <ul>
                                             <li><a class="hvr-link" href="index.html">Homepage Slider</a></li>
                                             <li><a class="hvr-link" href="index-1.html">Homepage Static</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#">About</a>
+                                    <li class="dropdown"><a class="hvr-link" href="#"><b>About</b></a>
                                         <ul>
                                             <li><a class="hvr-link" href="about.html">About</a></li>
                                             <li><a class="hvr-link" href="our-team.html">Team</a></li>
@@ -89,14 +94,14 @@
                                             <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#">Services</a>
+                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
                                         <ul>
                                             <li><a class="hvr-link" href="service.html">Services</a></li>
                                             <li><a class="hvr-link" href="service-two-coloumn.html">Service Two Coloumn</a></li>
                                             <li><a class="hvr-link" href="service-signle.html">Single Service</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#">Projects</a>
+                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Projects</b></a>
                                         <ul>
                                             <li><a class="hvr-link" href="projects.html">Project</a></li>
                                             <li><a class="hvr-link" href="projects-three.html">Project Three Column</a></li>
@@ -104,13 +109,13 @@
                                             <li><a class="hvr-link" href="projects-single.html">Project Single</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#">Shop</a>
+                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Katalog</b></a>
                                         <ul>
-                                            <li><a class="hvr-link" href="<?php echo base_url('Cn_Katalog') ?>">Our Shop</a></li>
-                                            <li><a class="hvr-link" href="shop-single.html">Product Details</a></li>
+                                            <li><a class="hvr-link" href="<?php echo base_url('Cn_Katalog') ?>">Katalog Produk</a></li>
+                                            <li><a class="hvr-link" href="shop-single.html">Detail Produk</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#">Blog</a>
+                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
                                         <ul>
                                             <li> <a class="hvr-link" href="blog-grid.html"> Blog Grid sidebar</a></li>
                                             <li> <a class="hvr-link" href="blog.html"> Blog List sidebar</a></li>
@@ -119,7 +124,7 @@
                                             <li> <a class="hvr-link" href="blog-details-slidebar.html"> Blog Details </a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="hvr-link" href="contact.html">Contact</a></li>
+                                    <li><a class="hvr-link" href="<?php echo base_url('Cn_Contact') ?>"><b>Contact</b></a></li>
                                 </ul>
                             </div>
                             <div class="clearfix"></div>
@@ -141,7 +146,7 @@
             <div class="row">
                 <!--col start-->
                 <div class="col-md-5 col-sm-5">
-                    <div class="logo"> <a href="<?php echo base_url('Cn_Home') ?>" class="img-responsive"><img class="logo-default" src="<?php echo base_url() ?>assets/images/logocombomodif.png" width="250" alt="" title=""></a> </div>
+                    <div class="logo"> <a href="<?php echo base_url('Cn_Home') ?>" class="img-responsive"><img class="logo-default" src="<?php echo base_url() ?>assets/images/logocombomodif3.png" width="250" alt="" title=""></a> </div>
                 </div>
                 <!--col end-->
                 <!--col start-->
@@ -151,15 +156,15 @@
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                         </div>
-                        <div class="navbar-collapse collapse clearfix">
+                        <div class="navbar-collapse collapse clearfix fontlato">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a class="hvr-link" href="#">Home</a>
+                                <li class="current dropdown"><a class="hvr-link" href="#"><b>Home</b></a>
                                     <ul>
                                         <li><a class="hvr-link" href="index.html">Homepage Slider</a></li>
                                         <li><a class="hvr-link" href="index-1.html">Homepage Static</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#">About</a>
+                                <li class="dropdown"><a class="hvr-link" href="#"><b>About</b></a>
                                     <ul>
                                         <li><a class="hvr-link" href="about.html">About</a></li>
                                         <li><a class="hvr-link" href="our-team.html">Team</a></li>
@@ -170,14 +175,14 @@
                                         <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#">Services</a>
+                                <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
                                     <ul>
                                         <li><a class="hvr-link" href="service.html">Services</a></li>
                                         <li><a class="hvr-link" href="service-two-coloumn.html">Service Two Coloumn</a></li>
                                         <li><a class="hvr-link" href="service-signle.html">Single Service</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#">Projects</a>
+                                <li class="dropdown"><a class="hvr-link" href="#"><b>Projects</b></a>
                                     <ul>
                                         <li><a class="hvr-link" href="projects.html">Project</a></li>
                                         <li><a class="hvr-link" href="projects-three.html">Project Three Column</a></li>
@@ -185,13 +190,13 @@
                                         <li><a class="hvr-link" href="projects-single.html">Project Single</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#">Shop</a>
+                                <li class="dropdown"><a class="hvr-link" href="#"><b>Katalog</b></a>
                                     <ul>
-                                        <li><a class="hvr-link" href="<?php echo base_url('Cn_Katalog') ?>">Our Shop</a></li>
-                                        <li><a class="hvr-link" href="shop-single.html">Product Details</a></li>
+                                        <li><a class="hvr-link" href="<?php echo base_url('Cn_Katalog') ?>">Katalog Produk</a></li>
+                                        <li><a class="hvr-link" href="shop-single.html">Detail Produk</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#">Blog</a>
+                                <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
                                     <ul>
                                         <li> <a class="hvr-link" href="blog-grid.html"> Blog Grid sidebar</a></li>
                                         <li> <a class="hvr-link" href="blog.html"> Blog List sidebar</a></li>
@@ -200,7 +205,7 @@
                                         <li> <a class="hvr-link" href="blog-details-slidebar.html"> Blog Details </a></li>
                                     </ul>
                                 </li>
-                                <li><a class="hvr-link" href="contact.html">Contact</a></li>
+                                <li><a class="hvr-link" href="<?php echo base_url('Cn_Contact') ?>"><b>Contact</b></a></li>
                             </ul>
                         </div>
                     </nav>

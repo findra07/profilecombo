@@ -4,8 +4,10 @@
 
 h1,
 a {
-	color: #ff8400;
+	color: #000000;
 }
+
+h1, a:hover{color: #ff8400;}
 
 .Button,
 .Form__control {

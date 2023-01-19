@@ -57,9 +57,11 @@
                         <div class="footer-info">
                             <h3 class="footer-title">Contact Us</h3>
                             <ul class="footer-adress">
-                                <li><i class="fa fa-map-marker"></i><span>8500 lorem, New Ispum, Dolor amet sit 12301 </span></li>
-                                <li><i class="fa fa-phone"></i><span>Call Us : 0934 343 343</span></li>
-                                <li><i class="fa fa-envelope-o"></i><span>Email : info@your-site.com</span></li>
+                                <font face="lato">
+                                    <li><i class="fa fa-map-marker"></i><span>Jl. Trunojoyo X No.2 Padangsari, Kec Banyumanik, Kota Semarang Jawa Tengah 50627</span></li>
+                                    <li><i class="fa fa-phone"></i><span>Call Us : 0853-5747-2345</span></li>
+                                    <li><i class="fa fa-envelope-o"></i><span>Email : comboputra@gmail.com</span></li>
+                                </font>
                             </ul>
                         </div>
                     </div>
