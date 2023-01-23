@@ -22,6 +22,34 @@
     .fontlato {
         font-family: 'lato';
     }
+
+    @media (min-width: 992px) {
+        .single-product-item .title-holder .product-title a h5 {
+            font-size: 14px;
+        }
+
+        .single-product-item .title-holder .rate {
+            font-size: 14px;
+        }
+
+        .jenis-barang {
+            padding-top: 0px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .single-product-item .title-holder .product-title a h5 {
+            font-size: 16px;
+        }
+
+        .single-product-item .title-holder .rate {
+            font-size: 16px;
+        }
+
+        .jenis-barang {
+            padding-top: 2px;
+        }
+    }
 </style>
 
 <body>
@@ -170,7 +198,7 @@
                                                         <div class="single-product-item">
                                                             <div class="serviceWrap">
                                                                 <div class="overlay-shop">                                    
-                                                                    <img class="" src="${foto}" height="230" alt="img">                                                                    
+                                                                    <img class="imgflex" src="${foto}" height="230" alt="img">                                                                    
                                                                 </div>
                                                                 <div class="link-wrap">
                                                                     <a href="${foto}" class="lightbox-image"><i class="fa fa-search"></i>
