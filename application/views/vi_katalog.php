@@ -23,6 +23,29 @@
         font-family: 'lato';
     }
 
+
+    @media (max-width:500px) {
+        /* .side-bar {
+            margin-top: 100px;
+        } */
+
+        .col-md-3 {
+            width: 50%;
+            float: left;
+        }
+
+        .imgflex {
+            height: 165px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .katflex {
+            width: 100%;
+        }
+
+    }
+
     @media (min-width: 992px) {
         .single-product-item .title-holder .product-title a h5 {
             font-size: 14px;
@@ -34,6 +57,11 @@
 
         .jenis-barang {
             padding-top: 0px;
+        }
+
+        .side-bar .tags-bar li a {
+            font-size: 12px;
+            padding: 3px 5px;
         }
     }
 
@@ -48,6 +76,11 @@
 
         .jenis-barang {
             padding-top: 2px;
+        }
+
+        .side-bar .tags-bar li a {
+            font-size: 13px;
+            padding: 7px 10px;
         }
     }
 </style>
@@ -116,8 +149,7 @@
                             <div class="btn-group" id="pagination_link"></div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-12">
-
+                    <div class="col-md-3 col-sm-12 katflex">
                         <div class="side-bar">
                             <div class="side-barBox">
                                 <h5 class="side-barTitle">Categories</h5>
