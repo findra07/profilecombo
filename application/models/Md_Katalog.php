@@ -32,7 +32,7 @@ class Md_Katalog extends CI_Model
         }
 
 
-        $this->db->where_in('tb.status_product', $status_product)->where('tb.status_barang', 0);
+        $this->db->where_in('tb.status_product', $status_product)->where('tb.status_barang', 0)->where('tfot.status_foto_barang', 0);
 
         // $this->db->limit($limit, $start);
         $this->db->order_by('tb.kode_barang', 'ASC');
@@ -83,7 +83,7 @@ class Md_Katalog extends CI_Model
             $this->db->like('tb.id_merk', $id_merk, 'both');
         }
 
-        $this->db->where_in('tb.status_product', $status_product)->where('tb.status_barang', 0);
+        $this->db->where_in('tb.status_product', $status_product)->where('tb.status_barang', 0)->where('tfot.status_foto_barang', 0);
         // $filter;
         $this->db->limit($limit, $start);
         $this->db->order_by('tb.kode_barang', 'ASC');

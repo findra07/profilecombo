@@ -22,7 +22,7 @@
                         <div class="caption lft large-title tp-resizeme slidertext1" data-x="center" data-y="200" data-speed="600" data-start="2200">We Build Big Things For Our Peoples</div>
                         <div class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="310" data-speed="600" data-start="2800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus ex sed eros molestie blandit. Fusce <br />
                             sem enim, commodo sit amet diam pharetra, aliquet pulvinar purus.</div>
-                        <div class="caption lfl large-title tp-resizeme slidertext3" data-x="center" data-y="370" data-speed="600" data-start="3500"> <a href="<?php echo base_url('Cn_Shop') ?>" class="main-btn btn-1 btn-1e white_color" aria-label="Close">Get Started</a> <a href="contact.html" class="main-btn btn-1 btn-1e white_color">Contact Us</a></div>
+                        <div class="caption lfl large-title tp-resizeme slidertext3" data-x="center" data-y="370" data-speed="600" data-start="3500"> <a href="<?php echo base_url('Cn_Katalog') ?>" class="main-btn btn-1 btn-1e white_color" aria-label="Close">Get Started</a> <a href="contact.html" class="main-btn btn-1 btn-1e white_color">Contact Us</a></div>
                     </li>
                     <li data-slotamount="7" data-transition="flip" data-masterspeed="1000" data-saveperformance="on"> <img alt="" src="<?php echo base_url() ?>assets/images/dummy.png" data-lazyload="<?php echo base_url() ?>assets/images/banner-1.jpg">
                         <div class="caption lft large-title tp-resizeme slidertext4" data-x="center" data-y="160" data-speed="600" data-start="1600">Welcome to Construction Company</div>

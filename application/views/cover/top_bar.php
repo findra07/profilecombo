@@ -2,6 +2,14 @@
     .fontlato {
         font-family: 'lato';
     }
+
+    .icon-head {
+        margin-bottom: 3px;
+    }
+
+    .icon-headbl {
+        margin-bottom: 1px;
+    }
 </style>
 <header class="main-header">
     <!--header-top start-->
@@ -38,11 +46,14 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-6">
                     <ul class="top-social-icons">
-                        <li><a href="#."><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#."><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#."><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#."><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#."><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/comboputra79" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/tokocomboputra/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <!-- <li><a href="#."><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li> -->
+                        <!-- <li><a href="#."><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li> -->
+                        <!-- <li><a href="#."><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+                        <li><a href="https://shopee.co.id/comboputra" target="_blank"><img class="fa icon-head" src="<?php echo base_url() ?>assets/images/shopee-square.png" height="24.70" width="21" alt="" aria-hidden="true"></a></li>
+                        <li><a href="https://www.tokopedia.com/comboputra" target="_blank"><img class="fa icon-head" src="<?php echo base_url() ?>assets/images/tokopedia-square.png" height="21.30" width="19.80" alt="" aria-hidden="true"></a></li>
+                        <li><a href="https://www.bukalapak.com/u/combo_putra_82495" target="_blank"><img class="fa icon-headbl" src="<?php echo base_url() ?>assets/images/bukalapak-square.png" height="21.20" width="21" alt="" aria-hidden="true"></a></li>
                     </ul>
                     <div class="btn-box">
                         <button data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-2" class="brochure-btn theme-btn hvr-link">Get A Quote</button>

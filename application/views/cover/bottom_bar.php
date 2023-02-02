@@ -1,3 +1,10 @@
+<style>
+    .find {
+        font-size: 12px;
+        font-style: italic;
+    }
+</style>
+
 <footer class="footer-sec">
     <!--container start-->
     <div class="container">
@@ -9,11 +16,14 @@
                     <div class="footer-logo"> <a href="index.html"><img class="footer-logo-default" src="<?php echo base_url() ?>assets/images/logocombomodif.png" width="250" alt=""> </a> </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam. </p>
                     <ul class="footer-social">
-                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/comboputra79" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/tokocomboputra/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <!-- <li><a href="#."><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li> -->
+                        <!-- <li><a href="#."><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li> -->
+                        <!-- <li><a href="#."><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+                        <li><a href="https://shopee.co.id/comboputra" target="_blank"><img class="fa icon-head" src="<?php echo base_url() ?>assets/images/shopee-square.png" height="24.70" width="21" alt="" aria-hidden="true"></a></li>
+                        <li><a href="https://www.tokopedia.com/comboputra" target="_blank"><img class="fa icon-head" src="<?php echo base_url() ?>assets/images/tokopedia-square.png" height="21.30" width="19.80" alt="" aria-hidden="true"></a></li>
+                        <li><a href="https://www.bukalapak.com/u/combo_putra_82495" target="_blank"><img class="fa" src="<?php echo base_url() ?>assets/images/bukalapak-square.png" height="22" alt="" aria-hidden="true"></a></li>
                     </ul>
                 </div>
             </div>
@@ -78,8 +88,8 @@
             <!--row start-->
             <div class="row">
                 <!--col start-->
-                <div class="col-md-6 col-sm-6">
-                    <p><a target="_blank" href="https://templateshub.net">Templates Hub</a>.</p>
+                <div class="col-md-6 col-sm-6 find">
+                    <p><a target="_blank" href="https://github.com/findra07">@find19</a></p>
                 </div>
                 <!--col end-->
                 <!--col start-->

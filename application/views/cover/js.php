@@ -19,37 +19,37 @@
     var colorSheets = [{
             color: "#fcb80b",
             title: "Switch to Default",
-            href: "./dist/color-default.css"
+            href: "<?php echo base_url() ?>assets/dist/color-default.css"
         },
         {
             color: "#e41900",
             title: "Switch to Red",
-            href: "./css/color-change-css/red.css"
+            href: "<?php echo base_url() ?>assets/css/color-change-css/red.css"
         },
         {
             color: "#26a65b",
             title: "Switch to Green",
-            href: "./css/color-change-css/green.css"
+            href: "<?php echo base_url() ?>assets/css/color-change-css/green.css"
         },
         {
             color: "#2cabf5",
             title: "Switch to Blue",
-            href: "./css/color-change-css/blue.css"
+            href: "<?php echo base_url() ?>assets/css/color-change-css/blue.css"
         },
         {
             color: "#05fff0",
             title: "Switch to Purple",
-            href: "./css/color-change-css/purple.css"
+            href: "<?php echo base_url() ?>assets/css/color-change-css/purple.css"
 
         },
         {
             color: "#ff4229",
             title: "Switch to Orange",
-            href: "./css/color-change-css/orange.css"
+            href: "<?php echo base_url() ?>assets/css/color-change-css/orange.css"
         }
     ];
 
 
-    ColorSwitcher.init(colorSheets);
+    // ColorSwitcher.init(colorSheets);
 </script>
 <script src="<?php echo base_url('assets/') ?>js/script.js"></script>

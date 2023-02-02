@@ -23,6 +23,21 @@
         font-family: 'lato';
     }
 
+    /* .ratabawah {
+        border: solid 1px;
+    } */
+
+    .title-holder {
+        height: 140px;
+        overflow: auto;
+    }
+
+    .title-holder:hover {
+        /* background-color: whitesmoke; */
+        border-bottom: solid 1px;
+        border-color: red;
+        background-color: white;
+    }
 
     @media (max-width:500px) {
         /* .side-bar {
@@ -52,11 +67,12 @@
         }
 
         .single-product-item .title-holder .rate {
-            font-size: 14px;
+            font-size: 12px;
         }
 
         .jenis-barang {
             padding-top: 0px;
+            font-size: 12px;
         }
 
         .side-bar .tags-bar li a {
@@ -76,12 +92,15 @@
 
         .jenis-barang {
             padding-top: 2px;
+            font-size: 16px;
         }
 
         .side-bar .tags-bar li a {
             font-size: 13px;
             padding: 7px 10px;
         }
+
+
     }
 </style>
 
@@ -243,7 +262,7 @@
                                                                             <h5 class="fontlato">${value.nama_barang}</h5>
                                                                         </a>                                                                    
                                                                 </div>
-                                                                <div class="fontlato">                                                                                                                        
+                                                                <div class="fontlato ratabawah">                                                                                                                        
                                                                         <a href="<?php echo base_url() ?>Cn_ShopSingle?id_barang=${value.id_barang}">                                                       
                                                                             <h4 class="rate"><b>Rp. ${numeral(value.harga_jual).format()}</b></h4>                                                                    
                                                                             <h5 class="jenis-barang"><b>${status}</b></h5>  
