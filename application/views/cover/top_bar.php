@@ -98,23 +98,23 @@
                                         <ul>
                                             <li><a class="hvr-link" href="about.html">About</a></li>
                                             <li><a class="hvr-link" href="our-team.html">Team</a></li>
-                                            <li><a class="hvr-link" href="faq.html">FAQ's</a></li>
-                                            <li><a class="hvr-link" href="404.html">404 Page</a></li>
-                                            <li><a class="hvr-link" href="testimonial.html">Testimonials</a></li>
-                                            <li><a class="hvr-link" href="typoghrapy.html">Typoghrapy</a></li>
-                                            <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li>
+                                            <!-- <li><a class="hvr-link" href="faq.html">FAQ's</a></li> -->
+                                            <!-- <li><a class="hvr-link" href="404.html">404 Page</a></li> -->
+                                            <!-- <li><a class="hvr-link" href="testimonial.html">Testimonials</a></li> -->
+                                            <!-- <li><a class="hvr-link" href="typoghrapy.html">Typoghrapy</a></li> -->
+                                            <!-- <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li> -->
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
+                                    <!-- <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
                                         <ul>
                                             <li><a class="hvr-link" href="service.html">Services</a></li>
                                             <li><a class="hvr-link" href="service-two-coloumn.html">Service Two Coloumn</a></li>
                                             <li><a class="hvr-link" href="service-signle.html">Single Service</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li class="dropdown"><a class="hvr-link" href="#"><b>Projects</b></a>
                                         <ul>
-                                            <li><a class="hvr-link" href="projects.html">Project</a></li>
+                                            <li><a class="hvr-link" href="<?php echo base_url('Cn_Project') ?>">Project</a></li>
                                             <li><a class="hvr-link" href="projects-three.html">Project Three Column</a></li>
                                             <li><a class="hvr-link" href="projects-four.html">Project Four Column</a></li>
                                             <li><a class="hvr-link" href="projects-single.html">Project Single</a></li>
@@ -126,7 +126,7 @@
                                             <li><a class="hvr-link" href="shop-single.html">Detail Produk</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
+                                    <!-- <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
                                         <ul>
                                             <li> <a class="hvr-link" href="blog-grid.html"> Blog Grid sidebar</a></li>
                                             <li> <a class="hvr-link" href="blog.html"> Blog List sidebar</a></li>
@@ -134,7 +134,7 @@
                                             <li> <a class="hvr-link" href="blog-details.html"> Blog Details with sidebar </a></li>
                                             <li> <a class="hvr-link" href="blog-details-slidebar.html"> Blog Details </a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li><a class="hvr-link" href="<?php echo base_url('Cn_Contact') ?>"><b>Contact</b></a></li>
                                 </ul>
                             </div>
@@ -179,23 +179,23 @@
                                     <ul>
                                         <li><a class="hvr-link" href="about.html">About</a></li>
                                         <li><a class="hvr-link" href="our-team.html">Team</a></li>
-                                        <li><a class="hvr-link" href="faq.html">FAQ's</a></li>
-                                        <li><a class="hvr-link" href="404.html">404 Page</a></li>
-                                        <li><a class="hvr-link" href="testimonial.html">Testimonials</a></li>
-                                        <li><a class="hvr-link" href="typoghrapy.html">Typoghrapy</a></li>
-                                        <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li>
+                                        <!-- <li><a class="hvr-link" href="faq.html">FAQ's</a></li> -->
+                                        <!-- <li><a class="hvr-link" href="404.html">404 Page</a></li> -->
+                                        <!-- <li><a class="hvr-link" href="testimonial.html">Testimonials</a></li> -->
+                                        <!-- <li><a class="hvr-link" href="typoghrapy.html">Typoghrapy</a></li> -->
+                                        <!-- <li><a class="hvr-link" href="coming-soon.html">Coming-soon</a></li> -->
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
+                                <!-- <li class="dropdown"><a class="hvr-link" href="#"><b>Services</b></a>
                                     <ul>
                                         <li><a class="hvr-link" href="service.html">Services</a></li>
                                         <li><a class="hvr-link" href="service-two-coloumn.html">Service Two Coloumn</a></li>
                                         <li><a class="hvr-link" href="service-signle.html">Single Service</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="dropdown"><a class="hvr-link" href="#"><b>Projects</b></a>
                                     <ul>
-                                        <li><a class="hvr-link" href="projects.html">Project</a></li>
+                                        <li><a class="hvr-link" href="<?php echo base_url('Cn_Project') ?>">Project</a></li>
                                         <li><a class="hvr-link" href="projects-three.html">Project Three Column</a></li>
                                         <li><a class="hvr-link" href="projects-four.html">Project Four Column</a></li>
                                         <li><a class="hvr-link" href="projects-single.html">Project Single</a></li>
@@ -207,7 +207,7 @@
                                         <li><a class="hvr-link" href="shop-single.html">Detail Produk</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
+                                <!-- <li class="dropdown"><a class="hvr-link" href="#"><b>Blog</b></a>
                                     <ul>
                                         <li> <a class="hvr-link" href="blog-grid.html"> Blog Grid sidebar</a></li>
                                         <li> <a class="hvr-link" href="blog.html"> Blog List sidebar</a></li>
@@ -215,7 +215,7 @@
                                         <li> <a class="hvr-link" href="blog-details.html"> Blog Details with sidebar </a></li>
                                         <li> <a class="hvr-link" href="blog-details-slidebar.html"> Blog Details </a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li><a class="hvr-link" href="<?php echo base_url('Cn_Contact') ?>"><b>Contact</b></a></li>
                             </ul>
                         </div>

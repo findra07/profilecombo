@@ -64,7 +64,7 @@
                                             </div>
                                             <div class="link-wrap">
                                                 <?php if ($tampil->nama_foto_barang !== null) { ?>
-                                                    <a href="https://sicora.comboputra.co.id/assets/foto/barang/<?php echo $tampil->nama_foto_barang ?>" class="lightbox-image"><i class="fa fa-search"></i></a>
+                                                    <a href="https://sicora.comboputra.co.id/assets/foto/barang/thumb/<?php echo $tampil->nama_foto_barang ?>" class="lightbox-image"><i class="fa fa-search"></i></a>
                                                     <!-- <a href="shop-single.html"><i class="fa fa-shopping-cart"></i> </a> -->
                                                 <?php } else { ?>
                                                     <a href="https://sicora.comboputra.co.id/assets/images/o-redlogo.png" class="lightbox-image"><i class="fa fa-search"></i></a>
