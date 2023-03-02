@@ -6,6 +6,11 @@
 <style>
     .atur_keterangan {
         margin: 0 5px 10px;
+        font-family: 'lato medium';
+    }
+
+    .font_admin {
+        font-family: 'lato medium';
     }
 </style>
 
@@ -58,20 +63,20 @@
                     <li class="col-md-4 col-sm-12 ">
                         <div class="blog-inter">
                             <div class="serviceWrap">
-                                <img src="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh.jpg" alt="img-8">
+                                <img src="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh.jpg" alt="img-8" height="300px">
                                 <div class="caption">
                                     <h3>Perumahan Arjuna</h3>
                                     <p>Semarang Utara</p>
                                 </div>
                                 <div class="link-wrap">
-                                    <a href="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh.jpg" title="Brand Promotion" class="lightbox-image"><i class="fa fa-search"></i></a>
-                                    <a href="projects-single.html"><i class="fa fa-link"></i></a>
+                                    <a href="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh.jpg" title="Preview" class="lightbox-image"><i class="fa fa-search"></i></a>
+                                    <a href="projects-single.html" title="Detail"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="post-tittle">
                                 <h4><a href="#">Perumahan Arjuna</a></h4>
                             </div>
-                            <ul class="blogDate">
+                            <ul class="blogDate font_admin">
                                 <li> <i class="fa fa-user" aria-hidden="true"></i><span>Admin</span> </li>
                                 <li> <i class="fa fa-calendar" aria-hidden="true"></i> <span>23 Dec 2017</span> </li>
                                 <li> <i class="fa fa-comments" aria-hidden="true"></i> <span> 5 Comments</span> </li>
@@ -84,18 +89,18 @@
                     <li class="col-md-4 col-sm-12 ">
                         <div class="blog-inter">
                             <div class="serviceWrap">
-                                <img src="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh1.jpg" alt="img-8">
+                                <img src="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh1.jpg" alt="img-8" height="300px">
                                 <div class="caption">
-                                    <h3>Business Financing</h3>
-                                    <p>Lorem ipsum dolor</p>
+                                    <h3>Perumahan Sadewa</h3>
+                                    <p>Boja</p>
                                 </div>
                                 <div class="link-wrap">
-                                    <a href="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh1.jpg" title="Brand Promotion" class="lightbox-image"><i class="fa fa-search"></i></a>
-                                    <a href="projects-single.html"><i class="fa fa-link"></i></a>
+                                    <a href="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh1.jpg" title="Preview" class="lightbox-image"><i class="fa fa-search"></i></a>
+                                    <a href="projects-single.html" title="Detail"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="post-tittle">
-                                <h4><a href="#">Duis ultricies aliquet mauris</a></h4>
+                                <h4><a href="#">Perumahan Sadewa</a></h4>
                             </div>
                             <ul class="blogDate">
                                 <li> <i class="fa fa-user" aria-hidden="true"></i><span>Admin</span> </li>
@@ -111,18 +116,18 @@
                     <li class="col-md-4 col-sm-12 ">
                         <div class="blog-inter">
                             <div class="serviceWrap">
-                                <img src="<?php echo base_url('assets/') ?>images/gallery/08.jpg" alt="img-8">
+                                <img src="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh2.jpg" alt="img-8" height="300px">
                                 <div class="caption">
-                                    <h3>Business Financing</h3>
-                                    <p>Lorem ipsum dolor</p>
+                                    <h3>Perumahan Werkudara</h3>
+                                    <p>Banyumanik</p>
                                 </div>
                                 <div class="link-wrap">
-                                    <a href="<?php echo base_url('assets/') ?>images/gallery/08.jpg" title="Brand Promotion" class="lightbox-image"><i class="fa fa-search"></i></a>
-                                    <a href="projects-single.html"><i class="fa fa-link"></i></a>
+                                    <a href="<?php echo base_url('assets/') ?>images/gallery/rumahcontoh2.jpg" title="Preview" class="lightbox-image"><i class="fa fa-search"></i></a>
+                                    <a href="projects-single.html" title="Detail"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="post-tittle">
-                                <h4><a href="#">Duis ultricies aliquet mauris</a></h4>
+                                <h4><a href="#">Perumahan Werkudara</a></h4>
                             </div>
                             <ul class="blogDate">
                                 <li> <i class="fa fa-user" aria-hidden="true"></i><span>Admin</span> </li>

@@ -19,5 +19,6 @@
     <link href="<?php echo base_url('assets/') ?>css/jquery.fancybox.css" rel="stylesheet">
     <link href="<?php echo base_url('assets/') ?>css/style_slider.css" rel="stylesheet">
     <link href="<?php echo base_url('assets/') ?>rs-plugin/css/settings.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/flexslider.css" type="text/css" media="screen" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>

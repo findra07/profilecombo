@@ -53,7 +53,7 @@
 	**********************************************************/
 	@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800');
-	@import url('font-awesome.css');
+	@import url('font-awesome.css');	
 	@import url('animate.css');
 	* {margin:0px; padding:0px;	border:none; outline:none;}
 	body {font-size:15px; color:#777777; line-height:1.8em;	font-weight:400; background:#ffffff; background-size:cover;	background-repeat:no-repeat; background-position:center top; -webkit-font-smoothing:antialiased; font-family:"Open Sans", sans-serif; }
@@ -70,8 +70,8 @@
 	.container-fluid{width:100%; padding-right:15px; padding-left:15px; margin-right:auto; margin-left:auto;}
 	.section-title{margin:0; padding-bottom:30px; text-align:center;}
 	.section-title h3{position:relative; font-size:40px; margin-bottom:40px; text-transform:uppercase; font-weight:700; line-height:42px; font-family:'Oswald', sans-serif;}
-	.section-title h3:after{content:''; background:#fcb80b; height:2px; width:60px; position:absolute;	bottom:-20px; left:50%;	margin-left:-30px;}
-	.section-title h3 span{color:#fcb80b; font-weight:400;}
+	.section-title h3:after{content:''; background: dodgerblue; height:2px; width:60px; position:absolute;	bottom:-20px; left:50%;	margin-left:-30px;}
+	.section-title h3 span{color: dodgerblue; font-weight:400;}
 	.section-title p{max-width:800px; margin:auto; line-height:23px;}
 	.margin_t40{margin-top:40px;}	
 .main-btn{border:none; font-family:inherit;	font-size:16px;	color:inherit; background:none;	cursor:pointer;	padding:12px 55px; display:inline-block; text-transform:uppercase; letter-spacing: 1px;	font-weight: 700;	outline: none;
@@ -142,7 +142,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #e90205;
+  /* background: #e90205; */
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;
@@ -387,20 +387,20 @@
 .portfolio-area .container-filter{padding-bottom:30px; text-align:center;}
 .portfolio-area .container-filter li{list-style:none; display:inline-block;}
 .portfolio-area .container-filter li a{display:block; padding:8px 20px; text-decoration:none;font-size:16px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:#000; background:none; border:1px solid #d4d4d4; }
-.portfolio-area .container-filter li a.active, .portfolio-area .container-filter li a:hover{background:#fcb80b; color:#fff;}
+.portfolio-area .container-filter li a.active, .portfolio-area .container-filter li a:hover{background: dodgerblue; color:#fff;}
 .portfolio-area .portfolio-posts li{display:inline-block;}
 .portfolio-area .portfolio-inner .col-md-2{padding:0px;}
 .portfolio-area .portfolio-inner .col-md-3{padding:0px;}
 .portfolio-area .portfolio-inner .col-md-4{padding:0px;}
 .serviceWrap{position:relative; overflow:hidden; background:#000; margin:0 auto; width:100%; }
-.serviceWrap img{-webkit-transition:all .4s ease-in-out; transition:all .4s ease-in-out; opacity:0.9; margin:0 auto; width:100%; height: 300px;} 
+.serviceWrap img{-webkit-transition:all .4s ease-in-out; transition:all .4s ease-in-out; opacity:0.9; margin:0 auto; width:100%;} 
 .serviceWrap:hover img{-webkit-transform:scale(1.2); transform:scale(1.2); filter:blur(4px);}
 .serviceWrap .caption{position:absolute; bottom:calc(50% - 30px); left:50%; transform:translateX(-50%) translateY(50%); z-index:10; text-align:center; width:100%;}
 .serviceWrap:before, .serviceWrap:after{position:absolute; content:''; height:0px; width:0px; background-color:transparent; -webkit-transition:all .25s ease-in-out; transition:all .3s ease-in-out; opacity:0;}
 .serviceWrap:before{border-left:1px solid #fff; border-top:1px solid #fff; top:20px; left:20px; z-index:1;}
 .serviceWrap:after{border-right:1px solid #fff; border-bottom:1px solid #fff; bottom:20px;right:20px;}
 .serviceWrap:hover:before, .serviceWrap:hover:after{height:40px; width:40px; opacity:1;}
-.serviceWrap .caption h3{color:#fff; margin-top:35px; margin-bottom:0; -webkit-transform:translateY(20px); transform:translateY(20px); -webkit-transition:all .5s ease-in-out; transition:all .5s ease-in-out; opacity:0; font-family:'Oswald', sans-serif;}
+.serviceWrap .caption h3{color:#fff; margin-top:35px; margin-bottom:0; -webkit-transform:translateY(20px); transform:translateY(20px); -webkit-transition:all .5s ease-in-out; transition:all .5s ease-in-out; opacity:0; font-family:'lato medium','Oswald', sans-serif;}
 .serviceWrap .caption p{-webkit-transform:translateY(50px); transform:translateY(50px); color:rgba(255,255,255,0.7); opacity:0; -webkit-transition:all .5s ease-in-out; transition:all .5s ease-in-out;}
 .serviceWrap:hover .caption h3, .serviceWrap:hover .caption p{opacity:1; -webkit-transform:translateY(0px); transform:translateY(0px); color:#fff}
 .serviceWrap .link-wrap{position:absolute; top:calc(50% - 25px); right:50%; transform:translateX(50%) translateY(-50%); z-index:10;}
@@ -735,12 +735,12 @@ bottom:25px; z-index: 10;right:50%; background:rgb(255, 255, 255); padding:5px; 
 	.blog-grid .photo-thumb:hover{background:#ffffff;}
 	.blog-grid .photo-thumb img{width:100%; -webkit-transition:all 0.5s; transition:all 0.5s;}
 	.blog-grid .photo-thumb .date{font-size:16px; z-index:1; position:absolute; left:80px; right:80px; text-align:center; bottom: 10px; color:#fff; background:#fcb80b; padding:6px 12px;}
-	.blog-grid h4{font-size:20px; line-height:27px; margin-top:20px; min-height:65px;}
-	.blog-grid .post-tittle h4 a{color:#000; font-weight:600; text-decoration: none; font-family:'Oswald', sans-serif; margin-left: 5px;}
+	.blog-grid h4{font-size:25px; line-height:27px; margin-top:20px; min-height:50px;}
+	.blog-grid .post-tittle h4 a{color:#000; font-weight:600; text-decoration: none; font-family: 'Lato Medium','Oswald', sans-serif; margin-left: 5px;}
 	.blog-grid .post-tittle h4 a:hover{color:#051429;}
 	.blog-grid .blogDate{list-style:none; display:block; margin-left: 5px;}
 	.blog-grid .blogDate li{display:inline-block; padding-right:8px; margin-bottom:2px;}
-	.blog-grid .blogDate li i{color:#fcb80b;}
+	.blog-grid .blogDate li i{color: dodgerblue;}
 	.blog-grid .blogDate li span{margin-left:5px;}
 	.blog-grid .blog-inter p a{color:#fcb80b; font-style:italic}
 	.blog-grid .blog-inter p a:hover{color:#fcb80b;}
@@ -798,7 +798,7 @@ bottom:25px; z-index: 10;right:50%; background:rgb(255, 255, 255); padding:5px; 
 	.pagination-area .showreslt{font-size:14px; font-weight:600; margin-top:10px;}
 	.pagination-area .pagination{text-align:center; margin:0; }
 	.pagination-area .pagination>li {display:inline;}
-	.pagination-area .pagination li a:hover, .pagination li.active a {background:#fcb80b; border:1px solid #fcb80b; color:#fff;}
+	.pagination-area .pagination li a:hover, .pagination li.active a {background:dodgerblue; border:1px solid dodgerblue; color:#fff;}
 	.pagination-area .pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span{}
 	.pagination-area .pagination>li:last-child>a, .pagination>li:last-child>span{border-top-right-radius:4px !important; border-bottom-right-radius:4px !important;}
 	.pagination-area .pagination>li:first-child>a, .pagination>li:first-child>span {margin-left:0; border-top-left-radius:4px; border-bottom-left-radius:4px;}
@@ -911,9 +911,9 @@ bottom:25px; z-index: 10;right:50%; background:rgb(255, 255, 255); padding:5px; 
 	.special-links ul{list-style:none; padding-left:0;}
 	.special-links li a{background:#f9f9f9; color:#323232; border:1px solid #e9e9e9; font-weight:600; text-transform:uppercase; display:block; margin-bottom:5px; line-height:50px;
 	 position:relative; padding:0 20px; -webkit-transition: all .3s ease; transition: all .3s ease;}
-	.special-links li:hover a, .special-links li a.active{background:#fff; color:#fcb80b;}
+	.special-links li:hover a, .special-links li a.active{background:#fff; color: dodgerblue;}
 	.special-links li a:hover:before, .special-links li a.active:before{opacity:1;}
-	.special-links li a:before {content:'\f0da'; font-family:'FontAwesome'; position:absolute; top:0; left:-1px; color:#222; font-size:0px; line-height:50px; opacity:0; -webkit-transition:all .3s ease; transition:all .3s ease; border-left:4px solid; border-color:#fcb80b;}
+	.special-links li a:before {content:'\f0da'; font-family:'FontAwesome'; position:absolute; top:0; left:-1px; color:#222; font-size:0px; line-height:50px; opacity:0; -webkit-transition:all .3s ease; transition:all .3s ease; border-left:4px solid; border-color: dodgerblue;}
 	.single-service:last-child{margin-bottom:0;}
 	.single-service:last-child .sec-title{font-size:15px; font-weight:600; margin-bottom:30px;}
 	.single-service:last-child .sec-title h2{font-size:20px; font-family:'Oswald', sans-serif;}
